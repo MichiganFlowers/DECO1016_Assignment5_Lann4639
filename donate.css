@@ -34,6 +34,7 @@ background-color: white;
   padding: 0px;
   background-color: #FACA7D;
   padding-top: 20px;
+  color: #e37c5d;
 }
 
 .Our-Store-Button{
@@ -60,11 +61,13 @@ font-size: 22px;
 .Donation_page_visual{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 border-radius: 10px;
 margin-top: 10px;
 background-color: #FACA7D;
+margin-left: 130px;
+margin-right: 130px;
 }
 
 .Donation_Page_Image{
@@ -295,6 +298,9 @@ border: 1px solid black;
 color: #e37c5d;
 background-color: #FACA7D;
 border-radius: 10px;
+font-size: 20px;
+margin-left: 200px;
+margin-right: 200px;
 }
 
 .CaineCourtVideo{
@@ -407,4 +413,47 @@ background-color: #FACA7D;
   padding: 5px;
   background: #FACA7D;
   color: white !important
+}
+
+.VolunteerSignUp{
+   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.VolunteerSignUpText{
+  font-size: 14px;
+}
+
+.SubmitButton{
+display: flex;
+justify-self: flex-end;
+align-self: flex-end;
+background: #FFe6e3;
+border-radius: 10px;
+box-shadow: 5px 5px;
+}
+
+VolunteerSignUp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.GuideDogPhoto{
+  display: block;
+  float: right;
+  width: 30%;
+  height:30%;
+}
+
+.VolunteerBackground{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #FACA7D;
 }

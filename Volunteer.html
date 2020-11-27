@@ -29,7 +29,7 @@
     <img src="Assets/Volunteer Guide Dogs NSW.png" class="VolunteerImage">
     <blockquote class="TestimonialSpeech">Volunteering for Guide Dogs NSW has granted me such a surreal oppurtunity to provide a meaningful service that is so fufilling. There is truely nothing like it."<br><div class="Jane">Jane - Guide Dogs NSW Volunteer</div></blockquote>
     </div>
-    <div class="backgroundtext"
+    <div class="backgroundtext">
     <p>As the lifeblood of our organisation volunteers are always welcomed with open arms.</p>
     <p> Our volunteers are given the oppurtunity to work in a hands on environment, changing the lives of others. Alongside this service to others our volunteers are given a strong sense of prode and satisfaction.</p>
 
@@ -111,9 +111,38 @@
         <li>Orange</li>
         <li>Wagga Wagga</li>
       </ul>
-    
-    <h3 class="Donation Title">Apply Now!</h3>
-    
-  <center><iframe class="CaineCourtVideo" width="560" height="315" src="https://www.youtube.com/embed/6s-WNdeeAz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      
+  <center><iframe class="CaineCourtVideo" width="560" height="315" src="https://www.youtube.com/embed/6s-WNdeeAz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" alt="A video describing the canine court program" allowfullscreen></iframe></center>
+  <div class="VolunteerBackground">
+  <h3 class="Donation Title">Apply Now!</h3>
+  <div class="VolunteerSignUp">
+    <p class="VolunteerSignUpText">General information</p>
+    <input type="text" placeholder="Firstname" name="name" required>
+    <input type="text" placeholder="Lastname" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label for="phone" class="VolunteerSignUpText">Enter your phone number</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+    <p class="VolunteerSignUpText">Address</p>
+    <label for="Street" class="VolunteerSignUpText">Street</label>
+    <input type="text" placeholder="Street" name="Address" required>
+    <label for="State" class="VolunteerSignUpText">State</label>
+    <select name="State" id="State">  
+      <option value="Victoria">Victoria</option>
+      <option value="NSW">New South Wales</option>
+      <option value="Queesnland">Queensland</option>
+      <option value="South Australia">South Australia</option>
+      <option value="Western Australia">Western Australia</option>
+      <option value="Tasmania">Tasmania</option>
+      <option value="Australian Captial Territory">Australian Captial Territory</option>
+      <label for="zip" class="VolunteerSignUpText">Postcode</label>
+      <input id="zip" name="zip" type="text" placeholder="Post-Code" pattern="[0-9]*">
+      <input type="submit" class="SubmitButton">
+    </div>
+  </select>
+  </div>
+    </div>
+
+
+
   </body>
   </html>

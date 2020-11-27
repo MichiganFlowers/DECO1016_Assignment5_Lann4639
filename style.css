@@ -30,6 +30,7 @@ background-color: white;
   margin: 0;
   padding: 0;
   background-color: #FACA7D;
+  color: #e37c5d;
 }
 
 .logo{
@@ -59,6 +60,7 @@ font-size: 22px;
 
 .Title{
   text-align: center;
+  color: black;
 }
 
 .Contact-Details{
@@ -75,6 +77,10 @@ font-size: 22px;
   width: 1%;
   height: 10%;
 
+}
+
+.Tagline{
+  color: black;
 }
 
 .Charity_Description{
@@ -172,6 +178,15 @@ background-image: url("Assets/Volunteer.jpg");
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.BackgroundStyle{
+border-radius: 10px;
+background-color: #FACA7D;
+margin-bottom: 30px;
+font-size: 20px;
+margin-left: 200px;
+margin-right: 200px;
 }
 
   color: -moz-linear-gradient( -148deg, rgba(250,172,47,0.99608) 0%, rgb(250,164,115) 0%, rgb(227,124,93) 0%, rgb(250,162,22) 84%, rgb(250,162,22) 100%);
